@@ -1,6 +1,7 @@
 from alchemy import transmutation
 import alchemy.transmutation
 
+
 def main() -> None:
     print()
     print("=== Pathway Debate Mastery ===")
@@ -10,24 +11,17 @@ def main() -> None:
     print("stone_to_gem(): ", transmutation.basic.stone_to_gem())
     print()
     print("Testing Relative Imports (from advanced.py):")
-    print("philosophers_stone(): ", transmutation.advanced.philosophers_stone())
+    print("philosophers_stone(): ",
+          transmutation.advanced.philosophers_stone())
     print("elixir_of_life(): ", transmutation.advanced.elixir_of_life())
     print()
     print("Testing Package Access:")
-    print(f"alchemy.transmutation.lead_to_gold(): ", alchemy.transmutation.lead_to_gold())
-    print(f"alchemy.transmutation.philosophers_stone(): ", alchemy.transmutation.philosophers_stone())
+    print("alchemy.transmutation.lead_to_gold(): ",
+          alchemy.transmutation.lead_to_gold())
+    print("alchemy.transmutation.philosophers_stone(): ",
+          alchemy.transmutation.philosophers_stone())
     print()
     print("Both pathways work! Absolute: clear, Relative: concise")
-
-
-
-
-
-
-
-
-
-
 
 
 if __name__ == "__main__":
