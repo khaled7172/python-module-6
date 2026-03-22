@@ -1,4 +1,3 @@
-# python-module-6
 *This project has been created as part of the 42 curriculum by khhammou*
 
 ## Description
@@ -199,10 +198,6 @@ noqa = "no quality assurance" — it's a comment that tells flake8 "ignore this 
 F401 is the specific error code for "imported but unused".
 So # noqa: F401 means "ignore the unused import warning on this line specifically". You could write just # noqa to silence all warnings on a line, but being specific with F401 is better practice — you're only suppressing the one warning you actually intend to ignore.
 
-
-
-Go crazy:
-autopep8 --in-place --aggressive --aggressive ft_garden_management.py
 ### Instructions
 
 You run this code by doing python3 file_name.py
